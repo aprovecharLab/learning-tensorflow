@@ -59,7 +59,7 @@ $ conda update --all
 <pre class=" language-console"><code class="prism  language-console">$ jupyter notebook
 </code></pre>
 <p>a new web browser page will open, if not open a browser and point to the URL displayed in this terminal</p>
-<h4 id="when-you-are-all-done-close-your-browser-and-to-kill-the-jupyter-notebook-server-type">when you are all done, close your browser and to kill the jupyter notebook server type:</h4>
+<h4 id="when-you-are-all-done---close-your-browser-and-kill-the-jupyter-notebook-server-by-typing">when you are all done - close your browser and kill the jupyter notebook server by typing:</h4>
 <pre class=" language-console"><code class="prism  language-console">^c^c
 </code></pre>
 <h3 id="running-some-programs">Running some programs</h3>
