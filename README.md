@@ -74,17 +74,18 @@ $ tensorboard --logdir=./tmp/example --port=8002 --reload_interval=5
 <pre class=" language-console"><code class="prism  language-console">http://localhost:8002/
 </code></pre>
 <h2 id="license">License</h2>
-<p>This project is licensed under the MIT License. Please read [file not here yet] for details</p>
+<p>This project is licensed under the MIT License. Please read <a href="LICENSE.md">LICENSE.md</a> for details</p>
 <h2 id="contributing">Contributing</h2>
-<p>Please read [file not here yet] for details on our code of conduct, and the process for submitting pull requests to us.</p>
+<p>Please read <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for details on our code of conduct, and the process for submitting pull requests to us.</p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Stephen Brown</strong> - <em>Initial work</em> - <a href="https://erlweb.mit.edu/users/srbrownmitedu">MIT</a></li>
 </ul>
+<p>See also the list of <a href="CONTRIBUTORS.md">contributors</a> who participated in this project.</p>
 <h2 id="acknowledgments">Acknowledgments</h2>
 <ul>
-<li>Hat tips to everyone whose code I use. I’ll try my best to acknowledge the source.</li>
-<li>Inspiration
+<li>Hat tips to everyone whose code I use.</li>
+<li>Inspiration from:
 <ul>
 <li>Andrew Ng’s excellent courses on machine learning:
 <ul>
@@ -103,7 +104,7 @@ $ tensorboard --logdir=./tmp/example --port=8002 --reload_interval=5
 <li>In trying to get up to speed in tensorflow beyond Andrew Ng’s homework, I found I just wasn’t quite comfortable with some of the new obscure programming syntax. So, I took this class by Jose Portilla:
 <ul>
 <li><a href="https://www.udemy.com/complete-guide-to-tensorflow-for-deep-learning-with-python">https://www.udemy.com/complete-guide-to-tensorflow-for-deep-learning-with-python</a>, in which I particularly liked the exercise of building a tiny tensorflow yourself using some object-oriented programming.</li>
-<li>This really confused me at first as this is a new world for me (I have found myself using classes in python before without really understanding them), so I had to step aside and study OOP a bit
+<li>This really confused me at first as this is a new world for me (I have found myself using classes in python before without really understanding them), so I had to step aside and study OOP a bit:
 <ul>
 <li>first  by looking at this helpful blog for a gentle intro to inheritance:
 <ul>
@@ -115,9 +116,9 @@ $ tensorboard --logdir=./tmp/example --port=8002 --reload_interval=5
 <li><a href="https://www.amazon.com/Python-3-Object-Oriented-Programming/dp/1849511268">https://www.amazon.com/Python-3-Object-Oriented-Programming/dp/1849511268</a></li>
 </ul>
 </li>
-<li>this exercise was well worth it!</li>
 </ul>
 </li>
+<li>In the end I conclude that this side trip was well worth it!</li>
 <li>Now I feel like I understand how the computation graphs are built and stored and just what the weird tensorflow syntax of creating and running sessions is really doing! Yay!</li>
 </ul>
 </li>
