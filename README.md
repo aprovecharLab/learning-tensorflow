@@ -63,7 +63,7 @@ $ conda update --all
 <pre class=" language-console"><code class="prism  language-console">^c^c
 </code></pre>
 <h3 id="running-some-programs">Running some programs</h3>
-<p>In the main jupyter notebook web page you can browse your file system for a jupyter notebook to work on.</p>
+<p>In the main jupyter nSee [file not here otebook web page you can browse your file system for a jupyter notebook to work on.</p>
 <h3 id="start-up-tensorboard-to-to-look-at-the-workings-of-your-tensorflow-computation-graph-perhaps-a-deep-neural-network">Start up TensorBoard to to look at the workings of your TensorFlow computation graph, perhaps a deep neural network</h3>
 <h4 id="open-another-terminal-and-activate-tensorflow-and-then-run-tensorboard-">open another terminal and activate “tensorFlow” and then run tensorboard :</h4>
 <pre class=" language-console"><code class="prism  language-console">$ conda activate tensorFlow
@@ -81,7 +81,6 @@ $ tensorboard --logdir=./tmp/example --port=8002 --reload_interval=5
 <ul>
 <li><strong>Stephen Brown</strong> - <em>Initial work</em> - <a href="https://erlweb.mit.edu/users/srbrownmitedu">MIT</a></li>
 </ul>
-<p>See also the list of <a href="https://github.com/your/project/contributors">contributors</a> who participated in this project.</p>
 <h2 id="acknowledgments">Acknowledgments</h2>
 <ul>
 <li>Hat tips to everyone whose code I use. I’ll try my best to acknowledge the source.</li>
