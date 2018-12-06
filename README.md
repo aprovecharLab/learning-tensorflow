@@ -73,15 +73,15 @@ $ tensorboard --logdir=./tmp/example --port=8002 --reload_interval=5
 <h4 id="to-see-the-tensorboard-interface-youll-need-to-open-a-new-tab-in-your-web-browser-to">to see the TensorBoard interface you’ll need to open a new tab in your web browser to:</h4>
 <pre class=" language-console"><code class="prism  language-console">http://localhost:8002/
 </code></pre>
+<h2 id="license">License</h2>
+<p>This project is licensed under the MIT License. Please read [file not here yet] for details</p>
 <h2 id="contributing">Contributing</h2>
-<p>Please read <a href="https://gist.github.com/PurpleBooth/b24679402957c63ec426">CONTRIBUTING.md</a> for details on our code of conduct, and the process for submitting pull requests to us.</p>
+<p>Please read [file not here yet] for details on our code of conduct, and the process for submitting pull requests to us.</p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Stephen Brown</strong> - <em>Initial work</em> - <a href="https://erlweb.mit.edu/users/srbrownmitedu">MIT</a></li>
 </ul>
 <p>See also the list of <a href="https://github.com/your/project/contributors">contributors</a> who participated in this project.</p>
-<h2 id="license">License</h2>
-<p>This project is licensed under the MIT License - see the <a href="LICENSE.md">LICENSE.md</a> file for details</p>
 <h2 id="acknowledgments">Acknowledgments</h2>
 <ul>
 <li>Hat tips to everyone whose code I use. I’ll try my best to acknowledge the source.</li>
@@ -119,7 +119,7 @@ $ tensorboard --logdir=./tmp/example --port=8002 --reload_interval=5
 <li>this exercise was well worth it!</li>
 </ul>
 </li>
-<li>Now I feel like I understand how the computation graphs are built and stored and just what the wierd tensorflow syntax of creating and running sessions is really doing! Yay!</li>
+<li>Now I feel like I understand how the computation graphs are built and stored and just what the weird tensorflow syntax of creating and running sessions is really doing! Yay!</li>
 </ul>
 </li>
 </ul>
