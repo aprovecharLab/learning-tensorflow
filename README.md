@@ -6,19 +6,27 @@
 <h1 id="some-practice-with-tensorflow">Some Practice with TensorFlow</h1>
 <p>This is a record of my practice in moving from formal courses and independent study in machine learning to using TensorFlow on my own.</p>
 <h2 id="prerequisites">Prerequisites</h2>
-<p>What things you need to install the software and how to install them.</p>
-<pre><code>I am using a Dell XPS-13 9370 Developer Edition laptop
-with Ubuntu 18.04.1 LTS installed. [This machine has an 
-Thunderbolt 3 usb C port and an external NVIDIA GTX 1070Ti 
-GPU in an Alito Node Pro enclosure]
-
-I also use an Alienware 15 laptop running both 
-Linux Mint 18.3 and Windows 10. [This machine has an
-internal NVIDIA GTX 1070 GPU]
-
-FYI: For the time being I'm using the CPU-only versions 
-of TensorFlow.
-</code></pre>
+<h4 id="what-things-you-need-to-install-the-software-and-how-to-install-them.">What things you need to install the software and how to install them.</h4>
+<ul>
+<li>
+<p>I am using a Dell XPS-13 9370 Developer Edition laptop<br>
+with Ubuntu 18.04.1 LTS installed. [This machine has an<br>
+Thunderbolt 3 usb C port and an external NVIDIA GTX 1070Ti<br>
+GPU in an Alito Node Pro enclosure]</p>
+</li>
+<li>
+<p>I also use an Alienware 15 laptop running both<br>
+Linux Mint 18.3 and Windows 10. [This machine has an<br>
+internal NVIDIA GTX 1070 GPU]</p>
+</li>
+<li>
+<p>FYI: For the time being I’m using the CPU-only versions<br>
+of TensorFlow.</p>
+</li>
+<li>
+<p>I downloaded the latest anaconda linux distribution for python 3.7 from: <a href="https://www.anaconda.com/download/#linux">https://www.anaconda.com/download/#linux</a></p>
+</li>
+</ul>
 <h2 id="install">Install</h2>
 <h4 id="first-install-the-latest-anaconda-python-3.7-or-whatever-open-a-terminal-and-update-your-base-environment">first install the latest anaconda python 3.7 or whatever, open a terminal, and update your “base” environment</h4>
 <pre class=" language-console"><code class="prism  language-console">$ conda update conda
