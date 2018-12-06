@@ -1,8 +1,5 @@
 ---
 
-
----
-
 <h1 id="some-practice-with-tensorflow">Some Practice with TensorFlow</h1>
 <p>This is a record of my practice in moving from formal courses and independent study in machine learning to using TensorFlow on my own.</p>
 <h2 id="prerequisites">Prerequisites</h2>
