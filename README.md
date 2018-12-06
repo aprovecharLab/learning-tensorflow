@@ -58,18 +58,18 @@ $ conda update --all
 <h4 id="run-jupyter-notebook">run jupyter notebook</h4>
 <pre class=" language-console"><code class="prism  language-console">$ jupyter notebook
 </code></pre>
-<p>a web browser page will open</p>
-<h4 id="when-you-are-all-done-...-to-kill-the-jupyter-notebook-server-type">when you are all done … to kill the jupyter notebook server type:</h4>
+<p>a new web browser page will open, if not open a browser and point to the URL displayed in this terminal</p>
+<h4 id="when-you-are-all-done-close-your-browser-and-to-kill-the-jupyter-notebook-server-type">when you are all done, close your browser and to kill the jupyter notebook server type:</h4>
 <pre class=" language-console"><code class="prism  language-console">^c^c
 </code></pre>
 <h3 id="running-some-programs">Running some programs</h3>
-<p>In the main jupyter nSee [file not here otebook web page you can browse your file system for a jupyter notebook to work on.</p>
+<p>In the main jupyter notebook web page you can browse your file system for a specific jupyter notebook to work on.</p>
 <h3 id="start-up-tensorboard-to-to-look-at-the-workings-of-your-tensorflow-computation-graph-perhaps-a-deep-neural-network">Start up TensorBoard to to look at the workings of your TensorFlow computation graph, perhaps a deep neural network</h3>
 <h4 id="open-another-terminal-and-activate-tensorflow-and-then-run-tensorboard-">open another terminal and activate “tensorFlow” and then run tensorboard :</h4>
 <pre class=" language-console"><code class="prism  language-console">$ conda activate tensorFlow
 $ tensorboard --logdir=./tmp/example --port=8002 --reload_interval=5
 </code></pre>
-<p>“./tmp/example” is the path to the folder containg your tensorboard log files … we’ll see more about this in the code examples</p>
+<p>“./tmp/example” is the path to the folder containing your tensorboard log files … we’ll see more about this in the code examples</p>
 <h4 id="to-see-the-tensorboard-interface-youll-need-to-open-a-new-tab-in-your-web-browser-to">to see the TensorBoard interface you’ll need to open a new tab in your web browser to:</h4>
 <pre class=" language-console"><code class="prism  language-console">http://localhost:8002/
 </code></pre>
