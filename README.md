@@ -1,3 +1,8 @@
+---
+
+
+---
+
 <hr>
 <h1 id="some-practice-with-tensorflow">Some Practice with TensorFlow</h1>
 <p>This is a record of my practice in moving from formal courses and independent study in machine learning to using TensorFlow on my own.</p>
@@ -29,7 +34,7 @@ of TensorFlow.</p>
 $ conda update --all
 </code></pre>
 <h4 id="create-new-environment-called-tensorflow-note-this-name-can-be-anything-...-i-use-a-capital-f-which-has-the-latest-tensorflow-and-the-compatible-versions-of-python-along-with-the-compatible-versions-of-anaconda-numpy-matplotlib-scikits-...">create new environment called “tensorFlow” (note this name can be anything … I use a capital ‘F’) which has the latest tensorflow and the compatible versions of python along with the compatible versions of anaconda (numpy, matplotlib, scikits …)</h4>
-<pre class="  language-console"><code class="prism  language-console">$ conda conda create -n tensorFlow python=3.6 anaconda
+<pre class="  language-console"><code class="prism  language-console">$ conda create -n tensorFlow python=3.6 anaconda
 $ conda activate tensorFlow
 </code></pre>
 <h4 id="now-you-are-in-that-environment-so-install-a-few-more-things-and-update-all">now you are in that environment, so install a few more things and update all</h4>
