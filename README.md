@@ -27,7 +27,7 @@ This is a record of my practice in moving from formal courses and independent st
     $ conda update conda
     $ conda update --all
 
-#### create new environment called “tensorFlow” (note this name can be anything … I use a capital ‘F’) which has the version 3.6 of python and all of anaconda packages compatible with that (numpy, matplotlib, scikits, tqdm, …)
+#### create new environment called “tensorFlow” (note this name can be anything … I use a capital ‘F’) which has the version 3.6 of python and all of anaconda packages compatible with that (numpy, matplotlib, scikits, tqdm, …) and activate this new environment
 
     $ conda create -n tensorFlow python=3.6 anaconda
     $ conda activate tensorFlow
