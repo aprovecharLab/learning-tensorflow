@@ -27,12 +27,12 @@ This is a record of my practice in moving from formal courses and independent st
     $ conda update conda
     $ conda update --all
 
-#### create new environment called “tensorFlow” (note this name can be anything … I use a capital ‘F’) which has the latest tensorflow and the compatible versions of python along with the compatible versions of anaconda (numpy, matplotlib, scikits …)
+#### create new environment called “tensorFlow” (note this name can be anything … I use a capital ‘F’) which has the version 3.6 of python and all of anaconda packages compatible with that (numpy, matplotlib, scikits, tqdm, …)
 
     $ conda create -n tensorFlow python=3.6 anaconda
     $ conda activate tensorFlow
 
-#### now you are in that environment, so install a few more things and update all
+#### now you are in that environment, install tensorflow and keras and update all
 
     $ conda install tensorflow
     $ conda install keras
