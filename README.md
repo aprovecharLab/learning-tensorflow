@@ -1,5 +1,9 @@
 ---
 
+
+---
+
+<hr>
 <h1 id="some-practice-with-tensorflow">Some Practice with TensorFlow</h1>
 <p>This is a record of my practice in moving from formal courses and independent study in machine learning to using TensorFlow on my own.</p>
 <h2 id="prerequisites">Prerequisites</h2>
@@ -26,49 +30,49 @@ of TensorFlow.</p>
 </ul>
 <h2 id="install">Install</h2>
 <h4 id="first-install-the-latest-anaconda-python-3.7-or-whatever-open-a-terminal-and-update-your-base-environment">first install the latest anaconda python 3.7 or whatever, open a terminal, and update your “base” environment</h4>
-<pre class=" language-console"><code class="prism  language-console">$ conda update conda
+<pre class="  language-console"><code class="prism  language-console">$ conda update conda
 $ conda update --all
 </code></pre>
 <h4 id="create-new-environment-called-tensorflow-note-this-name-can-be-anything-...-i-use-a-capital-f-which-has-the-latest-tensorflow-and-the-compatible-versions-of-python-along-with-the-compatible-versions-of-anaconda-numpy-matplotlib-scikits-...">create new environment called “tensorFlow” (note this name can be anything … I use a capital ‘F’) which has the latest tensorflow and the compatible versions of python along with the compatible versions of anaconda (numpy, matplotlib, scikits …)</h4>
-<pre class=" language-console"><code class="prism  language-console">$ conda create -n tensorFlow tensorflow
+<pre class="  language-console"><code class="prism  language-console">$ conda conda create -n tensorFlow python=3.6 anaconda
 $ conda activate tensorFlow
 </code></pre>
 <h4 id="now-you-are-in-that-environment-so-install-a-few-more-things-and-update-all">now you are in that environment, so install a few more things and update all</h4>
-<pre class=" language-console"><code class="prism  language-console">$ conda install keras
-$ conda install anaconda
+<pre class="  language-console"><code class="prism  language-console">$ conda install tensorflow
+$ conda install keras
 $ conda update --all
 </code></pre>
 <h4 id="now-you-can-deactivate-this-and-return-to-the-base-environment-if-you-want">now you can deactivate this and return to the “base” environment if you want</h4>
-<pre class=" language-console"><code class="prism  language-console">$ conda deactivate
+<pre class="  language-console"><code class="prism  language-console">$ conda deactivate
 </code></pre>
 <h4 id="then-you-can-list-your-environments">then you can list your environments</h4>
-<pre class=" language-console"><code class="prism  language-console">$ conda info -e
+<pre class="  language-console"><code class="prism  language-console">$ conda info -e
 </code></pre>
 <h4 id="later-once-you-are-sick-of-this-you-can-remove-the-environment-and-all-of-its-contents">later once you are sick of this, you can remove the environment and all of its contents</h4>
-<pre class=" language-console"><code class="prism  language-console">$ conda env remove --name tensorFlow
+<pre class="  language-console"><code class="prism  language-console">$ conda env remove --name tensorFlow
 </code></pre>
 <h2 id="ready-to-go">Ready to go</h2>
 <h3 id="start-up-a-jupyter-notebook-which-can-use-tensorflow">Start up a jupyter notebook which can use TensorFlow</h3>
 <h4 id="activate-your-environment">activate your environment</h4>
-<pre class=" language-console"><code class="prism  language-console">$ conda activate tensorFlow
+<pre class="  language-console"><code class="prism  language-console">$ conda activate tensorFlow
 </code></pre>
 <h4 id="run-jupyter-notebook">run jupyter notebook</h4>
-<pre class=" language-console"><code class="prism  language-console">$ jupyter notebook
+<pre class="  language-console"><code class="prism  language-console">$ jupyter notebook
 </code></pre>
 <p>a new web browser page will open, if not open a browser and point to the URL displayed in this terminal</p>
 <h4 id="when-you-are-all-done---close-your-browser-and-kill-the-jupyter-notebook-server-by-typing">when you are all done - close your browser and kill the jupyter notebook server by typing:</h4>
-<pre class=" language-console"><code class="prism  language-console">^c^c
+<pre class="  language-console"><code class="prism  language-console">^c^c
 </code></pre>
 <h3 id="running-some-programs">Running some programs</h3>
 <p>In the main jupyter notebook web page you can browse your file system for a specific jupyter notebook to work on.</p>
 <h3 id="start-up-tensorboard-to-to-look-at-the-workings-of-your-tensorflow-computation-graph-perhaps-a-deep-neural-network">Start up TensorBoard to to look at the workings of your TensorFlow computation graph, perhaps a deep neural network</h3>
 <h4 id="open-another-terminal-and-activate-tensorflow-and-then-run-tensorboard-">open another terminal and activate “tensorFlow” and then run tensorboard :</h4>
-<pre class=" language-console"><code class="prism  language-console">$ conda activate tensorFlow
+<pre class="  language-console"><code class="prism  language-console">$ conda activate tensorFlow
 $ tensorboard --logdir=./tmp/example --port=8002 --reload_interval=5
 </code></pre>
 <p>“./tmp/example” is the path to the folder containing your tensorboard log files … we’ll see more about this in the code examples</p>
 <h4 id="to-see-the-tensorboard-interface-youll-need-to-open-a-new-tab-in-your-web-browser-to">to see the TensorBoard interface you’ll need to open a new tab in your web browser to:</h4>
-<pre class=" language-console"><code class="prism  language-console">http://localhost:8002/
+<pre class="  language-console"><code class="prism  language-console">http://localhost:8002/
 </code></pre>
 <h2 id="license">License</h2>
 <p>This project is licensed under the MIT License. Please read <a href="LICENSE.md">LICENSE.md</a> for details</p>
