@@ -12,8 +12,8 @@ This is a record of my practice in moving from formal courses and independent st
     GPU in an Alito Node Pro enclosure]
 
 *   I also use an Alienware 15 laptop running both  
-    Linux Mint 18.3 Your account has been flagged. Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.and Windows 10\. [This machine has an  
-    internal NVIDIA GTX 1070 GPU]
+    Linux Mint 18.3 and Windows 10. [This machine has an internal
+    NVIDIA GTX 1070 Mobile GPU]
 
 *   FYI: For the time being I’m using the CPU-only versions  
     of TensorFlow.
