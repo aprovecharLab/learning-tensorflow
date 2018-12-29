@@ -8,7 +8,7 @@ This is a record of my practice in moving from formal courses and independent st
 
 *   I am using a Dell XPS-13 9370 Developer Edition laptop  
     with Ubuntu 18.04.1 LTS installed. [This machine has an  
-    Thunderbolt 3 usb C port and an external NVIDIA GTX 1070Ti  
+    Thunderbolt 3 usb C port and an external NVIDIA GTX 1070Ti
     GPU in an Alito Node Pro enclosure]
 
 *   I also use an Alienware 15 laptop running both  
